@@ -8,6 +8,8 @@ nav {
     align-items: center;
     position: sticky;
     background-color: $first;
+    opacity: 90%;
+    filter: invert(1);
     top: 0;
     z-index: 10;
 

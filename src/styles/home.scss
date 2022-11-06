@@ -33,7 +33,8 @@
     height: 100%;
     position: absolute;
     background: no-repeat center/auto url("../assets/1.png");
-    filter: blur(3px);
+    // filter: contrast(1);
+    filter: blur(50px);
     border-radius: 0 0 200px 200px;
   }
 }
@@ -42,7 +43,7 @@
   height: 100vh;
   width: 100%;
   background-color: $second;
-  padding: 500px;
+  // padding: 500px;
   display: flex;
   align-items: center;
   justify-content: center;

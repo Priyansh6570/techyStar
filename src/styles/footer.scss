@@ -6,6 +6,7 @@ footer {
     width: 100%;
     padding: 2rem;
     color: $dark;
+    filter: invert(1);
     display: grid;
     grid-template-columns: 4fr 1fr;
 
@@ -18,6 +19,7 @@ footer {
             font: 700 2rem $text1;
             text-transform: uppercase;
             color: $third;
+            filter: invert(1);
         }
 
         > p{
@@ -35,12 +37,13 @@ footer {
             flex-direction: column;
             align-items: center;
 
-            a {
+            > a {
                 color: $dark;
                 font: 900 1rem $text2;
 
                 &:hover {
                     color: $third;
+                    filter: invert(1);
                 }
             }
         }
